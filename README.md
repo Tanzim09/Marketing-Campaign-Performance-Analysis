@@ -162,4 +162,4 @@ Marketing-Campaign-Performance-Analysis/
 📧 Email: [tanzimrafat069@gmail.com](mailto:tanzimrafat069@gmail.com)  
 🔗 LinkedIn: [Tanzim Rafat](https://www.linkedin.com/in/tanzimrafat/)
 
-This project is a **complete marketing analytics solution**, integrating **Python, SQL, and Power BI** to **drive data-backed marketing decisions**. 🚀
+---
