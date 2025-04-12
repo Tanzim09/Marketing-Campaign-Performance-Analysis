@@ -1,10 +1,10 @@
 # Marketing Campaign Performance Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on analyzing **marketing campaign performance** to extract insights about **conversion rates, customer engagement, and ROI (Return on Investment)**. The analysis integrates **Python, SQL, and Power BI** to support data-driven decision-making for improving campaign effectiveness.
 
-### 🔍 Key Insights Covered:
+### Key Insights Covered:
 
 - **Exploratory Data Analysis (EDA):** Understanding campaign performance across different dimensions
 - **Customer Segmentation:** Using clustering techniques to identify customer groups
@@ -15,7 +15,7 @@ This project focuses on analyzing **marketing campaign performance** to extract 
 
 ---
 
-## 🚀 Technologies & Skills Used
+## Technologies & Skills Used
 
 - **Python (Pandas, NumPy, Matplotlib, Seaborn)** - Data cleaning, visualization, and analysis
 - **Scikit-learn** - Clustering models (K-Means)
@@ -26,7 +26,7 @@ This project focuses on analyzing **marketing campaign performance** to extract 
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source:** [Marketing Campaign Performance Dataset](https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset)
 - **Attributes Include:**
@@ -37,9 +37,9 @@ This project focuses on analyzing **marketing campaign performance** to extract 
 
 ---
 
-## 📌 Project Workflow
+## Project Workflow
 
-### 1️⃣ Data Cleaning (`01-data-cleaning.ipynb`)
+### Data Cleaning (`01-data-cleaning.ipynb`)
 
 - Loaded **raw campaign data** from CSV
 - Fixed incorrect data types (e.g., converting `Acquisition_Cost` from string to float)
@@ -49,33 +49,33 @@ This project focuses on analyzing **marketing campaign performance** to extract 
   - **Click-Through Rate (CTR):** Clicks / Impressions
 - Saved the **cleaned dataset** for further analysis
 
-### 2️⃣ Exploratory Data Analysis (`02-exploratory-analysis.ipynb`)
+### Exploratory Data Analysis (`02-exploratory-analysis.ipynb`)
 
 - **Summary statistics & missing values analysis**
 - **Bar charts & heatmaps** to visualize key trends
 - Identified **top-performing channels & customer segments**
 - Analyzed **ROI & conversion rates across campaign types**
 
-### 3️⃣ Statistical Testing (`03-statistical-tests.ipynb`)
+### Statistical Testing (`03-statistical-tests.ipynb`)
 
 - **ANOVA test:** Checked if ROI differs across marketing channels
 - **Chi-Square test:** Examined if customer segments impact conversion rates
 - **T-Test:** Compared engagement scores between Email vs. Social Media campaigns
 
-### 4️⃣ Customer Segmentation (`04-customer-segmentation.ipynb`)
+### Customer Segmentation (`04-customer-segmentation.ipynb`)
 
 - Applied **K-Means clustering** to group customers based on engagement & spending patterns
 - Used **PCA (Principal Component Analysis)** for dimensionality reduction
 - Evaluated **Silhouette Scores** to determine the optimal number of clusters
 - Assigned each customer to a **data-driven customer segment**
 
-### 5️⃣ Time-Series Forecasting (`05-time-series-forecasting.ipynb`)
+### Time-Series Forecasting (`05-time-series-forecasting.ipynb`)
 
 - Aggregated ROI **monthly** for trend analysis
 - Built **ARIMA** & **Prophet** models to predict future ROI
 - Compared forecast accuracy using **Mean Absolute Error (MAE)**
 
-### 6️⃣ SQL Query Analysis (`queries.sql`)
+### SQL Query Analysis (`queries.sql`)
 
 - **25+ SQL queries** to extract business insights:
   - Best-performing campaigns by ROI
@@ -84,7 +84,7 @@ This project focuses on analyzing **marketing campaign performance** to extract 
   - Cost efficiency per marketing channel
   - Monthly revenue trends
 
-### 7️⃣ Power BI Dashboard (`PowerBI_Analysis.pbix`)
+### Power BI Dashboard (`PowerBI_Analysis.pbix`)
 
 - Created an interactive **dashboard** with:
   - **ROI Trends Over Time (Line Chart)**
@@ -95,19 +95,19 @@ This project focuses on analyzing **marketing campaign performance** to extract 
 
 ---
 
-## 📊 Power BI Dashboard Highlights
+## Power BI Dashboard Highlights
 
 | **Visualization**                             | **Purpose**                                  |
 | --------------------------------------------- | -------------------------------------------- |
-| 📈 **ROI Trends Over Time**                   | Identify seasonal patterns in ROI            |
-| 📊 **Top-Selling Marketing Channels**         | See which channels perform best              |
-| 🛒 **Customer Segments vs. Conversion Rates** | Analyze which customer groups convert better |
-| 🎯 **Click-Through Rate vs. Cost per Click**  | Optimize campaign spending                   |
-| 🌎 **Campaign Performance by Location**       | Identify high-ROI regions                    |
+| **ROI Trends Over Time**                   | Identify seasonal patterns in ROI            |
+| **Top-Selling Marketing Channels**         | See which channels perform best              |
+| **Customer Segments vs. Conversion Rates** | Analyze which customer groups convert better |
+| **Click-Through Rate vs. Cost per Click**  | Optimize campaign spending                   |
+| **Campaign Performance by Location**       | Identify high-ROI regions                    |
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 Marketing-Campaign-Performance-Analysis/
@@ -134,9 +134,9 @@ Marketing-Campaign-Performance-Analysis/
 
 ---
 
-## ⚡ How to Use This Project
+## How to Use This Project
 
-### 🔹 Run Python Code
+### Run Python Code
 
 1. Install dependencies:
    ```bash
@@ -144,22 +144,22 @@ Marketing-Campaign-Performance-Analysis/
    ```
 2. Open and run the **Jupyter Notebooks** (`.ipynb` files) step by step.
 
-### 🔹 Execute SQL Queries
+### Execute SQL Queries
 
 - Load `cleaned_campaign_data.csv` into **SQL Server / PostgreSQL**
 - Run `queries.sql` to generate **insights** on campaign performance
 
-### 🔹 View Power BI Dashboard
+### View Power BI Dashboard
 
 - Open `PowerBI_Analysis.pbix` in **Power BI Desktop**
 - Interact with visualizations to explore campaign performance
 
 ---
 
-## 📧 Contact
+## Contact
 
-👤 **Tanzim Rafat**  
-📧 Email: [tanzimrafat069@gmail.com](mailto:tanzimrafat069@gmail.com)  
-🔗 LinkedIn: [Tanzim Rafat](https://www.linkedin.com/in/tanzimrafat/)
+ **Tanzim Rafat**  
+ Email: [tanzimrafat069@gmail.com](mailto:tanzimrafat069@gmail.com)  
+ LinkedIn: [Tanzim Rafat](https://www.linkedin.com/in/tanzimrafat/)
 
 ---
